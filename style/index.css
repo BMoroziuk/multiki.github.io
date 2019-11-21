@@ -1,0 +1,149 @@
+.toolbar {
+    background: #81829785;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.toolbarrow {
+    text-align-last: center;
+}
+
+.main {
+    width: 100%;
+}
+
+body {
+    background: #fef8ce96;
+    overflow: hidden;
+}
+
+.picto {
+    position: initial;
+    height: 100px;
+    border: 3px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    margin: 0 10px 0 10px;
+}
+
+.kermit {
+    border-color: #4a941f;
+}
+
+.kermitpol {
+    fill: #4a941f;
+    stroke: #4a941f;
+    stroke-width: 1;
+    fill-opacity: 0.3;
+}
+
+
+.animal {
+    border-color: #801215;
+}
+
+
+.animalpol {
+    fill: #801215;
+    stroke: #801215;
+    stroke-width: 1;
+    fill-opacity: 0.3;
+}
+
+.piggy {
+    border-color: #c96bc8;
+}
+
+.piggypol {
+    fill: #c96bc8;
+    stroke: #c96bc8;
+    stroke-width: 1;
+    fill-opacity: 0.3;
+}
+
+.fozzie {
+    border-color: #a7781d;
+}
+
+.fozziepol {
+    fill: #a7781d;
+    stroke: #a7781d;
+    stroke-width: 1;
+    fill-opacity: 0.3;
+}
+
+.gonzo {
+    border-color: #2958e0;
+}
+#inform{
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 2;
+}
+.gonzopol {
+    fill: #2958e0;
+    stroke: #2958e0;
+    stroke-width: 1;
+    fill-opacity: 0.3;
+}
+
+.summer {
+    border-color: #7cc1d6;
+}
+.success{
+    position: absolute;
+    right: 15%;
+    top: 1px;
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+    color: #fff;
+    text-shadow: #28a745 3px 3px 4px;
+}
+
+.summerpol {
+    fill: #7cc1d6;
+    stroke: #7cc1d6;
+    stroke-width: 1;
+    fill-opacity: 0.3;
+}
+.upload {
+    cursor: pointer;
+}
+#side{
+    background: #81829785;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    z-index: 0;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#inputGroupFile02 {
+    cursor: pointer;
+}
+
+.picto:hover, .pictoactive {
+    filter: grayscale(0%);
+    box-shadow: #000 2px 2px 4px 0px;
+}
+
+.header {
+    background: #81829785;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
